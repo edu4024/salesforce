@@ -1,0 +1,11 @@
+
+<div>
+  <ul class="contacts">
+    <li *ngFor="let contact of contacts">
+      <a routerLink="/profile/{{contact.id}}" >
+        <span>{{ contact.FirstName }} </span>
+        <span>{{ contact.LastName }}</span>
+      </a>
+    </li>
+  </ul>
+</div>

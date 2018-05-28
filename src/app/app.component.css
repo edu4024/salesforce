@@ -1,0 +1,26 @@
+mat-toolbar{
+  background-color: rgb(8, 90, 130);
+  width: 100%;
+  margin: 0px;
+}
+mat-toolbar a {
+  margin-left: 50px;
+  text-decoration: none;
+  padding: 2.5px 10px;
+  display: inline-block;
+  background-color: #eee;
+  border-radius: 4px;
+}
+mat-toolbar a:visited, a:link {
+  color: #607D8B;
+}
+mat-toolbar a:hover {
+  color: #039be5;
+  background-color: #CFD8DC;
+}
+mat-toolbar a.active {
+  color: #039be5;
+}
+mat-toolbar span{
+  color: #eee;
+}

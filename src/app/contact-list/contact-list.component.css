@@ -1,0 +1,18 @@
+ul li{
+  margin-left: 10px;
+  list-style-type: none;
+  border-bottom: 1px dotted rgb(170, 170, 170);
+}
+
+a{
+  color: rgba(55, 55, 55, 0.92);
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  /* color: rgba(179, 34, 34, 0.88); */
+  font-size: 22px;
+  text-decoration: underline;
+}

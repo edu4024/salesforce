@@ -1,0 +1,31 @@
+<div>
+  <mat-card>
+    <mat-card-header>
+      <mat-card-title>
+        <h2>Contact Details</h2>
+      </mat-card-title>
+      <mat-card-subtitle>
+        <h3> {{contact.Salutation }}  {{ contact.FirstName | uppercase }} {{ contact.LastName | uppercase }} </h3>
+      </mat-card-subtitle>
+    </mat-card-header>
+      <mat-card-content>
+        <p class="info">
+           Contact email: {{contact.Email }} <br>
+           Contact phone: {{ contact.Phone | uppercase }} <br>
+           Fax:           {{ contact.Fax | uppercase }} <br>
+           CleanStatus:   {{ contact.CleanStatus | uppercase }} <br>
+           MailingStreet: {{ contact.MailingStreet }} <br>
+           Title:         {{ contact.Title  }} <br>
+           Department:    {{ contact.Department  }} <br>
+           LeadSource:    {{ contact.LeadSource  }} <br>
+           Birthdate:     {{ contact.Birthdate | uppercase }} <br>
+
+        </p>
+      </mat-card-content>
+
+
+  <mat-card-actions>
+  <button mat-raised-button (click)="goBack()">go back</button>
+  </mat-card-actions>
+  </mat-card>
+</div>
